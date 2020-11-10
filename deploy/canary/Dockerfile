@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM 644152709166.dkr.ecr.eu-west-1.amazonaws.com/usabilla/dev/dockerhub-mirror/golang:latest
 MAINTAINER vmarmol@google.com
 
 RUN apt-get update && apt-get install -y git dmsetup && apt-get clean

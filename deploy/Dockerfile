@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM 644152709166.dkr.ecr.eu-west-1.amazonaws.com/usabilla/dev/dockerhub-mirror/alpine:3.7
 MAINTAINER dengnan@google.com vmarmol@google.com vishnuk@google.com jimmidyson@gmail.com stclair@google.com
 
 ENV GLIBC_VERSION "2.27-r0"
